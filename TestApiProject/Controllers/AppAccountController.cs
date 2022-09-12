@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -33,7 +34,7 @@ namespace TestApiProject.Controllers
         }
 
         [HttpPost("/api/customer")]
-       
+        [AllowAnonymous]
         public async Task<ActionResult<string>> CreateCustomer(CustomersViewModel user)
         {
             var applicationUser = new Customer
@@ -53,6 +54,7 @@ namespace TestApiProject.Controllers
         }
 
         [HttpPost("/api/customer/authenticate")]
+        [AllowAnonymous]
         public async Task<IActionResult> Authenticate([FromBody] AuthenticateUser request)
         {
             var identityUser = await _userManager.FindByNameAsync(request.UserName);

@@ -2260,19 +2260,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zagre\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\TestAspNetProject\\TestApiProject\\TestApiProject\\TestApiProject.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\TestApi\\TestApiProject\\TestApiProject\\TestApiProject.csproj",
       "projectName": "TestApiProject",
-      "projectPath": "D:\\Project\\TestAspNetProject\\TestApiProject\\TestApiProject\\TestApiProject.csproj",
-      "packagesPath": "C:\\Users\\zagre\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\TestAspNetProject\\TestApiProject\\TestApiProject\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\TestApi\\TestApiProject\\TestApiProject\\TestApiProject.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\TestApi\\TestApiProject\\TestApiProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zagre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2349,7 +2349,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
